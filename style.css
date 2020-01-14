@@ -1,11 +1,16 @@
-.headshot {
+.header {
+  display: inline-block;
+  width: 75%
+}
+
+#headshot {
   float: left;
 }
 
-.name {
+#name {
 float: left;
 }
 
-.contact {
+#contact {
 float: right; 
 }
