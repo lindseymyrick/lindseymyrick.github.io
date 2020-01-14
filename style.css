@@ -46,11 +46,15 @@ a:link {
 }
 
 a:hover {
-  color: purple; 
+  color: #3a4bb3; 
 }
  
 a:visited {
   color: black;
+}
+
+.closer {
+  line-height: .2cm;
 }
 
 
