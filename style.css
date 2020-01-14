@@ -1,8 +1,6 @@
 .header {
-  display: inline-block;
-  width: 75%
+  float: left;
 }
-
-.header .cf-medium {width:97%;}
+ 
 
 
