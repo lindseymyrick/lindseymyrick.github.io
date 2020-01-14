@@ -3,14 +3,6 @@
   width: 75%
 }
 
-#headshot {
-  float: left;
-}
+.header .cf-medium {width:97%;}
 
-#name {
-float: left;
-}
 
-#contact {
-float: right; 
-}
