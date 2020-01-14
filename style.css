@@ -3,10 +3,8 @@
 	margin-left: 15%;
 	margin-right: 15%;
   
-  padding: 1% 6% 1% 6%;
-
-  
-  border-radius: 15px;
+  	padding: 1% 6% 1% 6%;
+  	border-radius: 15px;
 	background-color: #A8B1E7;
 }
 
@@ -21,11 +19,11 @@
   margin-left: 10%;
   margin-right: 5%;
   border-style:solid;
-  border-bottom-color:3A4BB3;
+  border-color:#3A4BB3;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom:0;
 }
 
