@@ -2,66 +2,95 @@
 <html>
 <html lang= "en">
   <head>
-    <title> Prime Academy Application </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <title> Lindsey Myrick's Portfolio </title>
    </head>
 
 <body>
-  <div id="body"> 
-    <img src="Linkedin.jpg" id="pic" alt="Lindsey's headshot">
-    <h1> Lindsey Myrick </h1>
-    <ul id="contactinformation">
-       <li> Phone: 615-957-5946 </li>
-       <li> Email: lindsey.k.myrick@gmail.com</li>
-  
-    </ul>
-     <p> Detail-oriented and enthusiastic non-profit professional seeks new opportunities in the field of software development</p>
-  
-  <h2> Professional Experience </h2>
-  <h3 class="closer"> <a href="https://genesysworks.org/twin-cities" target="_blank"> Genesys Works </a> </h3>
-    <p class="closer"> Recruitment Specialist, Minneapolis, Minnesota, July 2018-August 2019 </p>
-    <ul>
-      <li> Created and managed the strategy for recruiting new students into the program, resulting in the following accomplishments: 
-          <ul> 
-            <li> 1,291 applications from students in the Twin Cities area, a 10% increase from the previous year </li>
-            <li> 90% of applicants qualified for free and reduced lunch, in line with the mission of Genesys Works, increasing from 75% the previous year </li>
-            <li> 61% of students persisted from application to interview stage, increasing from 50% the previous year </li> 
-           </ul>
-      </li>
-      <li> Provided training and ongoing support to the 32 staff members involved in recruitment </li>
-    </ul>
-  
-   <h3 class="closer"> <a href="https://genesysworks.org/twin-cities" target="_blank"> Genesys Works </a> </h3>
-      <p class="closer"> Program Coordinator, Minneapolis, Minnesota, August 2017-July 2018 </p>
-       <ul> 
-          <li> Supervised twenty high school interns in Information Technology internships, including positions within Quality Assurance, Desktop Deployment, and                Help-Desk teams </li>
-          <li> Managed the relationship with corporate partner supervisors at companies including Medtronic, Boston Scientific, and SPS Commerce 
-          </li>    
-       </ul>
+  <div class="backdrop"></div>
+    <header class="main-header">
+
+        <a class="main-header_brand" href="index.html"> 
+        <img class="logo" src="Images/logo-transparent.png" alt="Lindsey Myrick" />
+         </a>
+      <button class="toggle-button">
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+      </button>
+      <nav class="main-nav">
+        <ul class="main-nav_items">
+          <li class="main-nav_item">
+            <a href="#projects"> 
+              projects()
+            </a>
+          </li>
+          <li class="main-nav_item">
+            <a href="#about-me"> 
+              about()
+            </a>
+          </li>
+          <li class="main-nav_item">
+            <a href="./contact.html"> 
+              contact()
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+    </header>
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__items">
+          <li class="mobile-nav__item">
+              <a >projects()</a>
+          </li>
+          <li class="mobile-nav__item">
+              <a >about()</a>
+          </li>
+          <li class="mobile-nav__item mobile-nav__item--cta">
+              <a >contact()</a>
+          </li>
+          <li class="mobile-nav__item mobile-nav__item--cta">
+            <a >changeStyle()</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div id="main-introduction_container">
+          <div id="headshot" class="headshot" >
+            <img src="Images/Linkedin.jpg" /> 
+          </div> 
+          <div class="introduction-wrapper">
+                  <h3>Hello, happy <span id="day"> </span> <br>
+                  My name is Lindsey Myrick.<br>
+                  I'm a full stack developer and cat mom.</h3>
+          </div>
+      </div>
+      <div id="projects">
+        <h1> Web Application Projects </h1>
+      </div>
+      <div id="mobile-projects">
+        <h1> Mobile Projects </h1>
+      </div>
+      <div id="about-me">
+        <h1> About Me </h1>
+      </div>
+    </main>
     
-    <h3 class="closer"> <a href="http://www.collegepossible.org/about/" target="_blank"> College Possible </a> </h3>
-       <p class="closer"> AmeriCorps Member, Minneapolis, MN, August 2016-June 2017 </p>
-        <ul>
-            <li> Supported 39 low-income high school seniors throughout the college admissions process, resulting in a 95% admissions rate into a bachelor-       granting institution </li>
-            <li> Developed and delivered after-school programming on topics including self-advocacy skills, essay writing, and financial literacy </li>
-  </ul>
-  
-    <h3 class="closer"> <a href=" https://www.cityyear.org/" target="_blank"> City Year </a> </h3>
-        <p class="closer"> AmeriCorps Member, Los Angeles, California, July 2015-June 2016 </p>
-        <ul>
-            <li> Mentored 12 high school freshman at risk of dropping out by tackling academic skill gaps, developing social emotional skills, and monitoring                      attendance </li>
-            <li> Organized and lead activities, celebrations, and projects to improve the community and school environment, including a League of Legends Math                    Night attended by 200 students </li>
-            <li> Developed a weekly behavior intervention program for students with behavioral issues as the Social-Emotional Learning Coordinator at Jordan High                   School </li>
-         </ul>
-  
-    <h2> Education </h2>
-      <p> Carleton College <br>
-          BA, Bachelor of Arts, Religion, GPA: 3.54 <br>
-          August 2011-June 2015 <br>
-          Recipient of &quotDistinction in Religion Major&quot for academic excellence </p>
-    
-  </div>
-</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="shared.js"></script>
+  </body>
+
   
  </html>
    
